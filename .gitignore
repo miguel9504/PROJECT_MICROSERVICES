@@ -1,0 +1,22 @@
+# IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS Generated
+.DS_Store
+Thumbs.db
+
+# Build Results (redundant if sub-projects have gitignore, but safe)
+target/
+build/
+out/
+
+# Logs
+*.log
+
+# Docker
+.docker/
