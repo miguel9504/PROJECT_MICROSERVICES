@@ -94,8 +94,3 @@ Puedes probar la API utilizando **Postman** o `curl`.
     *   `fechaInicio`: `2024-01-01`
     *   `fechaFin`: `2025-12-31`
     *   `cliente`: `1234567890` (Debe coincidir con la identificación del cliente)
-
-## ⚠️ Solución de Problemas Comunes
-
-*   **Error "Ports are not available"**: Asegúrate de detener cualquier instancia de la aplicación que estés corriendo en tu IDE (IntelliJ/Eclipse) antes de ejecutar Docker.
-*   **Error de conexión a Base de Datos**: Si ves errores de "Communications link failure" al inicio, espera unos segundos. El `docker-compose` está configurado con un *Healthcheck* para reiniciar los servicios automáticamente una vez que MySQL esté listo.
